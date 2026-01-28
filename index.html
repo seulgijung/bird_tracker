@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NY Rare Bird Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f0f4f0;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2d5016 0%, #4a7c23 100%);
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .header h1 { font-size: 1.6rem; }
+        .header-info { font-size: 0.9rem; opacity: 0.9; }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2d5016;
+        }
+
+        .stat-card .label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.25rem;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 380px;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 900px) {
+            .main-grid { grid-template-columns: 1fr; }
+        }
+
+        .panel {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+
+        .panel-header {
+            background: #f8f9f8;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #e8ebe8;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        #map { height: 450px; }
+
+        .filters {
+            padding: 1rem;
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #e8ebe8;
+        }
+
+        .filters select, .filters input {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .sightings-list {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .sighting {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+        .sighting:hover { background: #f8f9f8; }
+
+        .sighting-species {
+            font-weight: 600;
+            color: #2d5016;
+            margin-bottom: 0.2rem;
+        }
+
+        .sighting-location {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .sighting-meta {
+            font-size: 0.8rem;
+            color: #999;
+            margin-top: 0.25rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        .footer a { color: #4a7c23; }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>NY Rare Bird Tracker</h1>
+        <div class="header-info">
+            Last updated: <span id="lastUpdated">Loading...</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="stats">
+            <div class="stat-card">
+                <div class="value" id="statTotal">-</div>
+                <div class="label">Sightings</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="statSpecies">-</div>
+                <div class="label">Species</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="statLocations">-</div>
+                <div class="label">Locations</div>
+            </div>
+            <div class="stat-card">
+                <div class="value" id="statObservers">-</div>
+                <div class="label">Observers</div>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <div class="panel">
+                <div class="panel-header">Sighting Map</div>
+                <div id="map"></div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">Recent Sightings</div>
+                <div class="filters">
+                    <select id="filterSpecies">
+                        <option value="">All Species</option>
+                    </select>
+                    <input type="text" id="searchBox" placeholder="Search...">
+                </div>
+                <div class="sightings-list" id="sightingsList">
+                    <div class="loading">Loading sightings...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Data from <a href="https://ebird.org/alert/summary?sid=SN35466" target="_blank">eBird</a> |
+        Auto-updates every 4 hours
+    </footer>
+
+    <script>
+        let map, markers = [], allSightings = [];
+
+        // Initialize map
+        function initMap() {
+            map = L.map('map').setView([42.5, -75.5], 6);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap'
+            }).addTo(map);
+        }
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('data.json?' + Date.now());
+                const data = await response.json();
+
+                document.getElementById('lastUpdated').textContent =
+                    new Date(data.last_updated).toLocaleString();
+
+                allSightings = data.sightings;
+                updateStats();
+                populateFilters();
+                renderSightings(allSightings);
+                renderMap(allSightings);
+
+            } catch (error) {
+                document.getElementById('sightingsList').innerHTML =
+                    '<div class="loading">Error loading data</div>';
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            const species = new Set(allSightings.map(s => s.species));
+            const locations = new Set(allSightings.map(s => s.location));
+            const observers = new Set(allSightings.map(s => s.observer));
+
+            document.getElementById('statTotal').textContent = allSightings.length;
+            document.getElementById('statSpecies').textContent = species.size;
+            document.getElementById('statLocations').textContent = locations.size;
+            document.getElementById('statObservers').textContent = observers.size;
+        }
+
+        // Populate species filter
+        function populateFilters() {
+            const species = [...new Set(allSightings.map(s => s.species))].sort();
+            const select = document.getElementById('filterSpecies');
+            species.forEach(sp => {
+                const opt = document.createElement('option');
+                opt.value = sp;
+                opt.textContent = sp;
+                select.appendChild(opt);
+            });
+        }
+
+        // Render sightings list
+        function renderSightings(sightings) {
+            const container = document.getElementById('sightingsList');
+
+            if (sightings.length === 0) {
+                container.innerHTML = '<div class="loading">No sightings found</div>';
+                return;
+            }
+
+            container.innerHTML = sightings.map(s => `
+                <div class="sighting" onclick="focusMap(${s.latitude}, ${s.longitude})">
+                    <div class="sighting-species">${s.species}</div>
+                    <div class="sighting-location">${s.location || 'Unknown location'}</div>
+                    <div class="sighting-meta">
+                        ${s.date || ''} · ${s.observer || 'Unknown'} · Count: ${s.count || '?'}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render map markers
+        function renderMap(sightings) {
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
+
+            const bounds = [];
+
+            sightings.forEach(s => {
+                if (s.latitude && s.longitude) {
+                    const marker = L.circleMarker([s.latitude, s.longitude], {
+                        radius: 7,
+                        fillColor: '#4a7c23',
+                        color: '#fff',
+                        weight: 2,
+                        fillOpacity: 0.8
+                    }).addTo(map);
+
+                    marker.bindPopup(`
+                        <strong>${s.species}</strong><br>
+                        ${s.location || ''}<br>
+                        ${s.date || ''}<br>
+                        Observer: ${s.observer || 'Unknown'}
+                    `);
+
+                    markers.push(marker);
+                    bounds.push([s.latitude, s.longitude]);
+                }
+            });
+
+            if (bounds.length > 0) {
+                map.fitBounds(bounds, { padding: [30, 30] });
+            }
+        }
+
+        // Focus map on location
+        function focusMap(lat, lng) {
+            if (lat && lng) {
+                map.setView([lat, lng], 12);
+            }
+        }
+
+        // Filter sightings
+        function applyFilters() {
+            const species = document.getElementById('filterSpecies').value;
+            const search = document.getElementById('searchBox').value.toLowerCase();
+
+            let filtered = allSightings;
+
+            if (species) {
+                filtered = filtered.filter(s => s.species === species);
+            }
+
+            if (search) {
+                filtered = filtered.filter(s =>
+                    s.species.toLowerCase().includes(search) ||
+                    (s.location && s.location.toLowerCase().includes(search)) ||
+                    (s.observer && s.observer.toLowerCase().includes(search))
+                );
+            }
+
+            renderSightings(filtered);
+            renderMap(filtered);
+        }
+
+        // Event listeners
+        document.getElementById('filterSpecies').addEventListener('change', applyFilters);
+        document.getElementById('searchBox').addEventListener('input', applyFilters);
+
+        // Initialize
+        initMap();
+        loadData();
+    </script>
+</body>
+</html>
