@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T00:17:08.582721",
+  "last_updated": "2026-05-09T05:00:56.987842",
   "alert_name": "New York Rare Bird Alert",
   "alert_url": "https://ebird.org/alert/summary?sid=SN35466",
   "total_sightings": 500,
@@ -68,7 +68,7 @@
       "species": "Mute Swan",
       "scientific_name": "Cygnus olor",
       "count": "2",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 05:45",
       "checklist_url": "https://ebird.org/checklist/S334735499",
       "location": "Randalls Island, New York, New York, United States",
@@ -105,6 +105,18 @@
       "scientific_name": "Cygnus buccinator",
       "count": "1",
       "status": "UNCONFIRMED",
+      "date": "May 08, 2026 14:05",
+      "checklist_url": "https://ebird.org/checklist/S334912996",
+      "location": "17 B Fosterdale, Sullivan, New York, United States",
+      "latitude": 41.7208056,
+      "longitude": -74.9741105,
+      "observer": "John Haas"
+    },
+    {
+      "species": "Trumpeter Swan",
+      "scientific_name": "Cygnus buccinator",
+      "count": "1",
+      "status": "UNCONFIRMED",
       "date": "May 06, 2026 19:41",
       "checklist_url": "https://ebird.org/checklist/S333754402",
       "location": "Cranberry Pond, Rochester US-NY (43.3008,-77.6979), Monroe, New York, United States",
@@ -135,18 +147,6 @@
       "latitude": 43.0906572,
       "longitude": -77.3780179,
       "observer": "Dan Gallagher"
-    },
-    {
-      "species": "Trumpeter Swan",
-      "scientific_name": "Cygnus buccinator",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 05, 2026 12:00",
-      "checklist_url": "https://ebird.org/checklist/S333275446",
-      "location": "Lynchs Pond Sullivan County, NY, Sullivan, New York, United States",
-      "latitude": 41.6957629,
-      "longitude": -74.9242957,
-      "observer": "scott baldinger"
     },
     {
       "species": "Northern Shoveler",
@@ -214,18 +214,6 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 03, 2026 09:00",
-      "checklist_url": "https://ebird.org/checklist/S332021134",
-      "location": "Mill Pond Preserve, Wantagh, Nassau, New York, United States",
-      "latitude": 40.666691,
-      "longitude": -73.5189189,
-      "observer": "Joseph Landesberg"
-    },
-    {
-      "species": "Northern Pintail",
-      "scientific_name": "Anas acuta",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 03, 2026 09:00",
       "checklist_url": "https://ebird.org/checklist/S332111288",
       "location": "Mill Pond Preserve, Wantagh, Nassau, New York, United States",
       "latitude": 40.666691,
@@ -238,11 +226,23 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 03, 2026 09:00",
-      "checklist_url": "https://ebird.org/checklist/S332405762",
+      "checklist_url": "https://ebird.org/checklist/S332021134",
       "location": "Mill Pond Preserve, Wantagh, Nassau, New York, United States",
       "latitude": 40.666691,
       "longitude": -73.5189189,
-      "observer": "South Shore Audubon"
+      "observer": "Joseph Landesberg"
+    },
+    {
+      "species": "Ring-necked Duck",
+      "scientific_name": "Aythya collaris",
+      "count": "2",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 17:55",
+      "checklist_url": "https://ebird.org/checklist/S334919308",
+      "location": "Genesee Valley Greenway, Belfast, Allegany, New York, United States",
+      "latitude": 42.341317,
+      "longitude": -78.1249294,
+      "observer": "Eli Knapp"
     },
     {
       "species": "Tufted Duck",
@@ -272,7 +272,7 @@
       "species": "Tufted Duck",
       "scientific_name": "Aythya fuligula",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 15:00",
       "checklist_url": "https://ebird.org/checklist/S334773877",
       "location": "Canandaigua Lake, City Pier, Ontario, New York, United States",
@@ -452,18 +452,6 @@
       "species": "Long-tailed Duck",
       "scientific_name": "Clangula hyemalis",
       "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 07, 2026 11:44",
-      "checklist_url": "https://ebird.org/checklist/S334045697",
-      "location": "205 New York 909E, Wantagh, New York, US (40.589, -73.555), Nassau, New York, United States",
-      "latitude": 40.5894593,
-      "longitude": -73.5548446,
-      "observer": "Jong Mong"
-    },
-    {
-      "species": "Long-tailed Duck",
-      "scientific_name": "Clangula hyemalis",
-      "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 08:00",
       "checklist_url": "https://ebird.org/checklist/S334856637",
@@ -483,6 +471,18 @@
       "latitude": 40.5888889,
       "longitude": -73.5566667,
       "observer": "emily tw"
+    },
+    {
+      "species": "Long-tailed Duck",
+      "scientific_name": "Clangula hyemalis",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 07, 2026 19:00",
+      "checklist_url": "https://ebird.org/checklist/S334308765",
+      "location": "Jones Beach SP--Coast Guard Station, Nassau, New York, United States",
+      "latitude": 40.5888889,
+      "longitude": -73.5566667,
+      "observer": "Daniel Islam"
     },
     {
       "species": "Long-tailed Duck",
@@ -560,7 +560,7 @@
       "species": "Common Goldeneye",
       "scientific_name": "Bucephala clangula",
       "count": "2",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 15:00",
       "checklist_url": "https://ebird.org/checklist/S334773877",
       "location": "Canandaigua Lake, City Pier, Ontario, New York, United States",
@@ -641,18 +641,6 @@
       "observer": "aaron lehr"
     },
     {
-      "species": "Hooded Merganser",
-      "scientific_name": "Lophodytes cucullatus",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 03, 2026 09:12",
-      "checklist_url": "https://ebird.org/checklist/S331804054",
-      "location": "Sheldrake Lake (Larchmont Reservoir), Westchester, New York, United States",
-      "latitude": 40.9527912,
-      "longitude": -73.7738478,
-      "observer": "DeAndre\u2019 Symonds"
-    },
-    {
       "species": "Common Merganser",
       "scientific_name": "Mergus merganser",
       "count": "2",
@@ -680,7 +668,7 @@
       "species": "Wild Turkey",
       "scientific_name": "Meleagris gallopavo",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 19:24",
       "checklist_url": "https://ebird.org/checklist/S334874215",
       "location": "The Battery, Manhattan, New York, New York, United States",
@@ -825,18 +813,6 @@
       "scientific_name": "Antrostomus carolinensis",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 08, 2026 14:21",
-      "checklist_url": "https://ebird.org/checklist/S334869746",
-      "location": "Central Park--Great Hill, New York, New York, United States",
-      "latitude": 40.7969094,
-      "longitude": -73.9588827,
-      "observer": "Travis  Smith"
-    },
-    {
-      "species": "Chuck-will's-widow",
-      "scientific_name": "Antrostomus carolinensis",
-      "count": "1",
-      "status": "UNCONFIRMED",
       "date": "May 08, 2026 17:37",
       "checklist_url": "https://ebird.org/checklist/S334878972",
       "location": "Central Park--North End (N of 97th St. Transverse), New York, New York, United States",
@@ -849,36 +825,72 @@
       "scientific_name": "Antrostomus carolinensis",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 08, 2026 16:30",
-      "checklist_url": "https://ebird.org/checklist/S334792034",
-      "location": "Central Park--North Woods, New York, New York, United States",
-      "latitude": 40.7978829,
-      "longitude": -73.9561404,
-      "observer": "Emily Johnson"
+      "date": "May 08, 2026 17:37",
+      "checklist_url": "https://ebird.org/checklist/S334927173",
+      "location": "Central Park--North End (N of 97th St. Transverse), New York, New York, United States",
+      "latitude": 40.796089,
+      "longitude": -73.9558947,
+      "observer": "Petralina Lambert"
     },
     {
       "species": "Chuck-will's-widow",
       "scientific_name": "Antrostomus carolinensis",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 08, 2026 14:46",
-      "checklist_url": "https://ebird.org/checklist/S334775096",
+      "date": "May 08, 2026 17:37",
+      "checklist_url": "https://ebird.org/checklist/S334926096",
+      "location": "Central Park--North End (N of 97th St. Transverse), New York, New York, United States",
+      "latitude": 40.796089,
+      "longitude": -73.9558947,
+      "observer": "Christine Backel"
+    },
+    {
+      "species": "Chuck-will's-widow",
+      "scientific_name": "Antrostomus carolinensis",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 18:27",
+      "checklist_url": "https://ebird.org/checklist/S334885771",
       "location": "Central Park--North Woods, New York, New York, United States",
       "latitude": 40.7978829,
       "longitude": -73.9561404,
-      "observer": "Z L"
+      "observer": "Anonymous eBirder"
     },
     {
       "species": "Eastern Whip-poor-will",
       "scientific_name": "Antrostomus vociferus",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 07, 2026 20:38",
-      "checklist_url": "https://ebird.org/checklist/S334423466",
-      "location": "Home, Oswego, New York, United States",
-      "latitude": 43.6053848,
-      "longitude": -76.1471608,
-      "observer": "Matthew Brown"
+      "date": "May 08, 2026 20:47",
+      "checklist_url": "https://ebird.org/checklist/S334901576",
+      "location": "Derby Hill Hawk Watch--North Lookout, Oswego, New York, United States",
+      "latitude": 43.527261,
+      "longitude": -76.2393397,
+      "observer": "Kim Steininger"
+    },
+    {
+      "species": "Eastern Whip-poor-will",
+      "scientific_name": "Antrostomus vociferus",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 20:47",
+      "checklist_url": "https://ebird.org/checklist/S334901575",
+      "location": "Derby Hill Hawk Watch--North Lookout, Oswego, New York, United States",
+      "latitude": 43.527261,
+      "longitude": -76.2393397,
+      "observer": "David Brown"
+    },
+    {
+      "species": "Eastern Whip-poor-will",
+      "scientific_name": "Antrostomus vociferus",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 21:00",
+      "checklist_url": "https://ebird.org/checklist/S334902557",
+      "location": "Jones Beach SP--Field 10, Nassau, New York, United States",
+      "latitude": 40.6017384,
+      "longitude": -73.5144666,
+      "observer": "Michael Zambardino"
     },
     {
       "species": "Eastern Whip-poor-will",
@@ -891,30 +903,6 @@
       "latitude": 43.0281187,
       "longitude": -76.125793,
       "observer": "Scott Peterson"
-    },
-    {
-      "species": "Eastern Whip-poor-will",
-      "scientific_name": "Antrostomus vociferus",
-      "count": "1",
-      "status": "UNCONFIRMED",
-      "date": "May 07, 2026 20:31",
-      "checklist_url": "https://ebird.org/checklist/S334285874",
-      "location": "Morningside Community Garden and Reservoir, Onondaga, New York, United States",
-      "latitude": 43.0281187,
-      "longitude": -76.125793,
-      "observer": "Chris Winter"
-    },
-    {
-      "species": "Eastern Whip-poor-will",
-      "scientific_name": "Antrostomus vociferus",
-      "count": "1",
-      "status": "UNCONFIRMED",
-      "date": "May 07, 2026 21:00",
-      "checklist_url": "https://ebird.org/checklist/S334470791",
-      "location": "NFC Station2, Oswego, New York, United States",
-      "latitude": 43.6053338,
-      "longitude": -76.1476223,
-      "observer": "Matthew Brown NFC Station"
     },
     {
       "species": "Ruby-throated Hummingbird",
@@ -1126,11 +1114,11 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 05, 2026 08:44",
-      "checklist_url": "https://ebird.org/checklist/S333012368",
+      "checklist_url": "https://ebird.org/checklist/S333018936",
       "location": "Paul Smith's College, Franklin, New York, United States",
       "latitude": 44.4375537,
       "longitude": -74.2530447,
-      "observer": "Bryce Shannon"
+      "observer": "Jocelyn Pyne"
     },
     {
       "species": "Sandhill Crane",
@@ -1138,11 +1126,11 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 05, 2026 08:44",
-      "checklist_url": "https://ebird.org/checklist/S333018936",
+      "checklist_url": "https://ebird.org/checklist/S333012368",
       "location": "Paul Smith's College, Franklin, New York, United States",
       "latitude": 44.4375537,
       "longitude": -74.2530447,
-      "observer": "Jocelyn Pyne"
+      "observer": "Bryce Shannon"
     },
     {
       "species": "Black-necked Stilt",
@@ -1354,11 +1342,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 04, 2026 20:36",
-      "checklist_url": "https://ebird.org/checklist/S333510726",
+      "checklist_url": "https://ebird.org/checklist/S333510725",
       "location": "Derby Hill Hawk Watch--North Lookout, Oswego, New York, United States",
       "latitude": 43.527261,
       "longitude": -76.2393397,
-      "observer": "Kim Steininger"
+      "observer": "David Brown"
     },
     {
       "species": "Upland Sandpiper",
@@ -1366,11 +1354,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 04, 2026 20:36",
-      "checklist_url": "https://ebird.org/checklist/S333510725",
+      "checklist_url": "https://ebird.org/checklist/S333510726",
       "location": "Derby Hill Hawk Watch--North Lookout, Oswego, New York, United States",
       "latitude": 43.527261,
       "longitude": -76.2393397,
-      "observer": "David Brown"
+      "observer": "Kim Steininger"
     },
     {
       "species": "Short-billed Dowitcher",
@@ -1701,24 +1689,24 @@
       "scientific_name": "Arenaria interpres",
       "count": "1",
       "status": "CONFIRMED",
-      "date": "May 06, 2026 09:48",
-      "checklist_url": "https://ebird.org/checklist/S333534934",
-      "location": "Ontario Beach and Charlotte Pier, Monroe, New York, United States",
-      "latitude": 43.2580188,
-      "longitude": -77.6071545,
-      "observer": "Robin M"
-    },
-    {
-      "species": "Ruddy Turnstone",
-      "scientific_name": "Arenaria interpres",
-      "count": "1",
-      "status": "CONFIRMED",
       "date": "May 06, 2026 14:59",
       "checklist_url": "https://ebird.org/checklist/S333676262",
       "location": "Summerville Pier, Monroe, New York, United States",
       "latitude": 43.25659,
       "longitude": -77.60215,
       "observer": "Robert Cicotta"
+    },
+    {
+      "species": "Stilt Sandpiper",
+      "scientific_name": "Calidris himantopus",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 19:29",
+      "checklist_url": "https://ebird.org/checklist/S334888234",
+      "location": "Dale Rd wet fields, Niagara, New York, United States",
+      "latitude": 43.179807,
+      "longitude": -78.543886,
+      "observer": "Joel Strong"
     },
     {
       "species": "Stilt Sandpiper",
@@ -1779,6 +1767,18 @@
       "latitude": 42.5371252,
       "longitude": -76.5506476,
       "observer": "J Gary Kohlenberg"
+    },
+    {
+      "species": "White-rumped Sandpiper",
+      "scientific_name": "Calidris fuscicollis",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 15:54",
+      "checklist_url": "https://ebird.org/checklist/S334939037",
+      "location": "Udall's Mill Pond, Nassau, New York, United States",
+      "latitude": 40.7995738,
+      "longitude": -73.7487479,
+      "observer": "Hiren Suratwala"
     },
     {
       "species": "Least Sandpiper",
@@ -1880,7 +1880,7 @@
       "species": "Semipalmated Sandpiper",
       "scientific_name": "Calidris pusilla",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 06, 2026 08:06",
       "checklist_url": "https://ebird.org/checklist/S334098346",
       "location": "Inwood Hill Park, New York, New York, United States",
@@ -1959,18 +1959,6 @@
       "latitude": 42.902283,
       "longitude": -77.338586,
       "observer": "Brad Carlson"
-    },
-    {
-      "species": "Franklin's Gull",
-      "scientific_name": "Leucophaeus pipixcan",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 06, 2026 13:48",
-      "checklist_url": "https://ebird.org/checklist/S333775688",
-      "location": "N Bloomfield Rd. X Short Road, Canandaigua, Ontario, New York, United States",
-      "latitude": 42.9024269,
-      "longitude": -77.3388107,
-      "observer": "Robert G. Buckert"
     },
     {
       "species": "Franklin's Gull",
@@ -2098,11 +2086,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 05, 2026 05:26",
-      "checklist_url": "https://ebird.org/checklist/S333284902",
+      "checklist_url": "https://ebird.org/checklist/S333235774",
       "location": "Randalls Island, New York, New York, United States",
       "latitude": 40.7887808,
       "longitude": -73.9219681,
-      "observer": "Dmitriy Aronov"
+      "observer": "Tim Healy"
     },
     {
       "species": "Caspian Tern",
@@ -2110,11 +2098,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 05, 2026 05:26",
-      "checklist_url": "https://ebird.org/checklist/S333235774",
+      "checklist_url": "https://ebird.org/checklist/S333284902",
       "location": "Randalls Island, New York, New York, United States",
       "latitude": 40.7887808,
       "longitude": -73.9219681,
-      "observer": "Tim Healy"
+      "observer": "Dmitriy Aronov"
     },
     {
       "species": "Caspian Tern",
@@ -2199,18 +2187,6 @@
       "latitude": 40.8681047,
       "longitude": -73.809474,
       "observer": "patrick horan"
-    },
-    {
-      "species": "Forster's Tern",
-      "scientific_name": "Sterna forsteri",
-      "count": "",
-      "status": "UNCONFIRMED",
-      "date": "May 06, 2026 13:49",
-      "checklist_url": "https://ebird.org/checklist/S333688550",
-      "location": "Pelham Bay Park--Turtle Cove, Bronx, New York, United States",
-      "latitude": 40.8619109,
-      "longitude": -73.8049561,
-      "observer": "Edmundo ."
     },
     {
       "species": "Forster's Tern",
@@ -2446,11 +2422,11 @@
       "count": "2",
       "status": "CONFIRMED",
       "date": "May 04, 2026 07:55",
-      "checklist_url": "https://ebird.org/checklist/S332658986",
+      "checklist_url": "https://ebird.org/checklist/S332455673",
       "location": "Jones Beach SP--West End, Nassau, New York, United States",
       "latitude": 40.5835871,
       "longitude": -73.5514346,
-      "observer": "Patricia Lindsay"
+      "observer": "Shai Mitra"
     },
     {
       "species": "Great Cormorant",
@@ -2458,11 +2434,11 @@
       "count": "2",
       "status": "CONFIRMED",
       "date": "May 04, 2026 07:55",
-      "checklist_url": "https://ebird.org/checklist/S332455673",
+      "checklist_url": "https://ebird.org/checklist/S332658986",
       "location": "Jones Beach SP--West End, Nassau, New York, United States",
       "latitude": 40.5835871,
       "longitude": -73.5514346,
-      "observer": "Shai Mitra"
+      "observer": "Patricia Lindsay"
     },
     {
       "species": "White Ibis",
@@ -2559,18 +2535,6 @@
       "latitude": 41.4025242,
       "longitude": -74.3499176,
       "observer": "walter jahn"
-    },
-    {
-      "species": "Glossy Ibis",
-      "scientific_name": "Plegadis falcinellus",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 07, 2026 11:30",
-      "checklist_url": "https://ebird.org/checklist/S334147227",
-      "location": "Six and a Half Station Rd. Sanctuary, Orange, New York, United States",
-      "latitude": 41.4025242,
-      "longitude": -74.3499176,
-      "observer": "Susan Cagney"
     },
     {
       "species": "White-faced Ibis",
@@ -2685,6 +2649,18 @@
       "scientific_name": "Egretta caerulea",
       "count": "1",
       "status": "UNCONFIRMED",
+      "date": "May 08, 2026 08:55",
+      "checklist_url": "https://ebird.org/checklist/S334917983",
+      "location": "Bashakill State WMA, Sullivan, New York, United States",
+      "latitude": 41.5384264,
+      "longitude": -74.5156422,
+      "observer": "Maryangela Buskey"
+    },
+    {
+      "species": "Little Blue Heron",
+      "scientific_name": "Egretta caerulea",
+      "count": "1",
+      "status": "UNCONFIRMED",
       "date": "May 07, 2026 17:06",
       "checklist_url": "https://ebird.org/checklist/S334824835",
       "location": "Hogan Point Rd., Monroe, New York, United States",
@@ -2770,18 +2746,6 @@
       "count": "4",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 14:20",
-      "checklist_url": "https://ebird.org/checklist/S334717824",
-      "location": "3700 County Road 6, Geneva US-NY (42.8518,-77.0109), Ontario, New York, United States",
-      "latitude": 42.851777,
-      "longitude": -77.010876,
-      "observer": "Brad Carlson"
-    },
-    {
-      "species": "Western Cattle-Egret",
-      "scientific_name": "Ardea ibis",
-      "count": "4",
-      "status": "UNCONFIRMED",
-      "date": "May 08, 2026 14:20",
       "checklist_url": "https://ebird.org/checklist/S334717822",
       "location": "3700 County Road 6, Geneva US-NY (42.8518,-77.0109), Ontario, New York, United States",
       "latitude": 42.851777,
@@ -2791,14 +2755,14 @@
     {
       "species": "Western Cattle-Egret",
       "scientific_name": "Ardea ibis",
-      "count": "1",
+      "count": "4",
       "status": "UNCONFIRMED",
-      "date": "May 08, 2026 15:16",
-      "checklist_url": "https://ebird.org/checklist/S334802772",
-      "location": "Montezuma NWR--Sandhill Crane Unit, Wayne, New York, United States",
-      "latitude": 43.0444291,
-      "longitude": -76.7268848,
-      "observer": "Cara Ratterman"
+      "date": "May 08, 2026 14:20",
+      "checklist_url": "https://ebird.org/checklist/S334717824",
+      "location": "3700 County Road 6, Geneva US-NY (42.8518,-77.0109), Ontario, New York, United States",
+      "latitude": 42.851777,
+      "longitude": -77.010876,
+      "observer": "Brad Carlson"
     },
     {
       "species": "Western Cattle-Egret",
@@ -2811,6 +2775,18 @@
       "latitude": 43.0444291,
       "longitude": -76.7268848,
       "observer": "Nick Giordano"
+    },
+    {
+      "species": "Western Cattle-Egret",
+      "scientific_name": "Ardea ibis",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 15:16",
+      "checklist_url": "https://ebird.org/checklist/S334802772",
+      "location": "Montezuma NWR--Sandhill Crane Unit, Wayne, New York, United States",
+      "latitude": 43.0444291,
+      "longitude": -76.7268848,
+      "observer": "Cara Ratterman"
     },
     {
       "species": "American White Pelican",
@@ -2878,11 +2854,23 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 03, 2026 05:11",
-      "checklist_url": "https://ebird.org/checklist/S332540590",
+      "checklist_url": "https://ebird.org/checklist/S332529941",
       "location": "Central Park, New York, New York, United States",
       "latitude": 40.7715482,
       "longitude": -73.9724819,
-      "observer": "Ryan Zucker"
+      "observer": "Dmitriy Aronov"
+    },
+    {
+      "species": "Sharp-shinned Hawk (Northern)",
+      "scientific_name": "Accipiter striatus [velox Group]",
+      "count": "1",
+      "status": "CONFIRMED",
+      "date": "May 03, 2026 05:11",
+      "checklist_url": "https://ebird.org/checklist/S332506570",
+      "location": "Central Park, New York, New York, United States",
+      "latitude": 40.7715482,
+      "longitude": -73.9724819,
+      "observer": "Tim Healy"
     },
     {
       "species": "Sharp-shinned Hawk (Northern)",
@@ -2914,35 +2902,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 03, 2026 05:11",
-      "checklist_url": "https://ebird.org/checklist/S332529941",
+      "checklist_url": "https://ebird.org/checklist/S332540590",
       "location": "Central Park, New York, New York, United States",
       "latitude": 40.7715482,
       "longitude": -73.9724819,
-      "observer": "Dmitriy Aronov"
-    },
-    {
-      "species": "Sharp-shinned Hawk (Northern)",
-      "scientific_name": "Accipiter striatus [velox Group]",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 03, 2026 05:11",
-      "checklist_url": "https://ebird.org/checklist/S332506570",
-      "location": "Central Park, New York, New York, United States",
-      "latitude": 40.7715482,
-      "longitude": -73.9724819,
-      "observer": "Tim Healy"
-    },
-    {
-      "species": "Sharp-shinned Hawk",
-      "scientific_name": "Accipiter striatus",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 04, 2026 13:54",
-      "checklist_url": "https://ebird.org/checklist/S332639929",
-      "location": "Dam Pond, Suffolk, New York, United States",
-      "latitude": 41.1336632,
-      "longitude": -72.3326111,
-      "observer": "John Sepenoski"
+      "observer": "Ryan Zucker"
     },
     {
       "species": "Sharp-shinned Hawk",
@@ -3250,11 +3214,11 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 14:14",
-      "checklist_url": "https://ebird.org/checklist/S334835336",
+      "checklist_url": "https://ebird.org/checklist/S334840859",
       "location": "Van Cortlandt Park--NW Forest, Bronx, New York, United States",
       "latitude": 40.904835,
       "longitude": -73.89131,
-      "observer": "\ud83e\udd89Richard Aracil\ud83e\udd85"
+      "observer": "leo wexler-mann"
     },
     {
       "species": "Pileated Woodpecker",
@@ -3262,11 +3226,11 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 14:14",
-      "checklist_url": "https://ebird.org/checklist/S334840859",
+      "checklist_url": "https://ebird.org/checklist/S334835336",
       "location": "Van Cortlandt Park--NW Forest, Bronx, New York, United States",
       "latitude": 40.904835,
       "longitude": -73.89131,
-      "observer": "leo wexler-mann"
+      "observer": "\ud83e\udd89Richard Aracil\ud83e\udd85"
     },
     {
       "species": "Merlin",
@@ -3464,7 +3428,7 @@
       "species": "Willow Flycatcher",
       "scientific_name": "Empidonax traillii",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 07, 2026 15:00",
       "checklist_url": "https://ebird.org/checklist/S334214576",
       "location": "Barnes Gully, Town of Canandaigua, Ontario, New York, United States",
@@ -3502,18 +3466,6 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 09:00",
-      "checklist_url": "https://ebird.org/checklist/S334757752",
-      "location": "Brooklyn Botanic Garden, Kings, New York, United States",
-      "latitude": 40.6680222,
-      "longitude": -73.96367,
-      "observer": "Marleny Rafferty"
-    },
-    {
-      "species": "Eastern Phoebe",
-      "scientific_name": "Sayornis phoebe",
-      "count": "1",
-      "status": "UNCONFIRMED",
-      "date": "May 08, 2026 09:00",
       "checklist_url": "https://ebird.org/checklist/S334742888",
       "location": "Brooklyn Botanic Garden, Kings, New York, United States",
       "latitude": 40.6680222,
@@ -3525,12 +3477,12 @@
       "scientific_name": "Sayornis phoebe",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 03, 2026 09:50",
-      "checklist_url": "https://ebird.org/checklist/S331969165",
-      "location": "Prospect Park, Kings, New York, United States",
-      "latitude": 40.6602841,
-      "longitude": -73.9689534,
-      "observer": "Vincent Drayne"
+      "date": "May 08, 2026 09:00",
+      "checklist_url": "https://ebird.org/checklist/S334757752",
+      "location": "Brooklyn Botanic Garden, Kings, New York, United States",
+      "latitude": 40.6680222,
+      "longitude": -73.96367,
+      "observer": "Marleny Rafferty"
     },
     {
       "species": "Eastern Phoebe",
@@ -3543,6 +3495,18 @@
       "latitude": 40.6602841,
       "longitude": -73.9689534,
       "observer": "Nora Mestrich"
+    },
+    {
+      "species": "Eastern Phoebe",
+      "scientific_name": "Sayornis phoebe",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 03, 2026 09:50",
+      "checklist_url": "https://ebird.org/checklist/S331969165",
+      "location": "Prospect Park, Kings, New York, United States",
+      "latitude": 40.6602841,
+      "longitude": -73.9689534,
+      "observer": "Vincent Drayne"
     },
     {
       "species": "Philadelphia Vireo",
@@ -3607,18 +3571,6 @@
     {
       "species": "Fish Crow",
       "scientific_name": "Corvus ossifragus",
-      "count": "2",
-      "status": "CONFIRMED",
-      "date": "May 07, 2026 13:46",
-      "checklist_url": "https://ebird.org/checklist/S334125185",
-      "location": "Beaver Island SP--Beaver Island, Erie, New York, United States",
-      "latitude": 42.9603249,
-      "longitude": -78.9603013,
-      "observer": "David Todtenhagen"
-    },
-    {
-      "species": "Fish Crow",
-      "scientific_name": "Corvus ossifragus",
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 08:13",
@@ -3639,6 +3591,18 @@
       "latitude": 42.9268351,
       "longitude": -78.8632295,
       "observer": "Sam Evans"
+    },
+    {
+      "species": "Fish Crow",
+      "scientific_name": "Corvus ossifragus",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 17:55",
+      "checklist_url": "https://ebird.org/checklist/S334919308",
+      "location": "Genesee Valley Greenway, Belfast, Allegany, New York, United States",
+      "latitude": 42.341317,
+      "longitude": -78.1249294,
+      "observer": "Eli Knapp"
     },
     {
       "species": "Fish Crow",
@@ -3670,11 +3634,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 03, 2026 17:30",
-      "checklist_url": "https://ebird.org/checklist/S332226035",
+      "checklist_url": "https://ebird.org/checklist/S332381786",
       "location": "Jamaica Bay Wildlife Refuge, Queens, New York, United States",
       "latitude": 40.6170296,
       "longitude": -73.8244561,
-      "observer": "Yvonne Fang"
+      "observer": "Roman Huszar"
     },
     {
       "species": "Purple Martin",
@@ -3682,11 +3646,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 03, 2026 17:30",
-      "checklist_url": "https://ebird.org/checklist/S332381786",
+      "checklist_url": "https://ebird.org/checklist/S332226035",
       "location": "Jamaica Bay Wildlife Refuge, Queens, New York, United States",
       "latitude": 40.6170296,
       "longitude": -73.8244561,
-      "observer": "Roman Huszar"
+      "observer": "Yvonne Fang"
     },
     {
       "species": "Purple Martin",
@@ -3718,18 +3682,6 @@
       "count": "2",
       "status": "CONFIRMED",
       "date": "May 07, 2026 09:59",
-      "checklist_url": "https://ebird.org/checklist/S334119171",
-      "location": "Canarsie Beach Park, Kings, New York, United States",
-      "latitude": 40.6258911,
-      "longitude": -73.8972616,
-      "observer": "Richard Fleming"
-    },
-    {
-      "species": "Cliff Swallow",
-      "scientific_name": "Petrochelidon pyrrhonota",
-      "count": "2",
-      "status": "CONFIRMED",
-      "date": "May 07, 2026 09:59",
       "checklist_url": "https://ebird.org/checklist/S334144565",
       "location": "Canarsie Beach Park, Kings, New York, United States",
       "latitude": 40.6258911,
@@ -3739,8 +3691,20 @@
     {
       "species": "Cliff Swallow",
       "scientific_name": "Petrochelidon pyrrhonota",
+      "count": "2",
+      "status": "CONFIRMED",
+      "date": "May 07, 2026 09:59",
+      "checklist_url": "https://ebird.org/checklist/S334119171",
+      "location": "Canarsie Beach Park, Kings, New York, United States",
+      "latitude": 40.6258911,
+      "longitude": -73.8972616,
+      "observer": "Richard Fleming"
+    },
+    {
+      "species": "Cliff Swallow",
+      "scientific_name": "Petrochelidon pyrrhonota",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 05:45",
       "checklist_url": "https://ebird.org/checklist/S334735499",
       "location": "Randalls Island, New York, New York, United States",
@@ -3751,14 +3715,38 @@
     {
       "species": "Cliff Swallow",
       "scientific_name": "Petrochelidon pyrrhonota",
-      "count": "1",
+      "count": "16",
       "status": "UNCONFIRMED",
-      "date": "May 05, 2026 18:17",
-      "checklist_url": "https://ebird.org/checklist/S334105855",
-      "location": "Randalls Island--saltmarsh and backstop 42 vicinity, New York, New York, United States",
-      "latitude": 40.7964152,
-      "longitude": -73.9152148,
-      "observer": "Forrest Almasi"
+      "date": "May 08, 2026 15:54",
+      "checklist_url": "https://ebird.org/checklist/S334939037",
+      "location": "Udall's Mill Pond, Nassau, New York, United States",
+      "latitude": 40.7995738,
+      "longitude": -73.7487479,
+      "observer": "Hiren Suratwala"
+    },
+    {
+      "species": "Golden-crowned Kinglet",
+      "scientific_name": "Regulus satrapa",
+      "count": "1",
+      "status": "CONFIRMED",
+      "date": "May 05, 2026 07:26",
+      "checklist_url": "https://ebird.org/checklist/S333031879",
+      "location": "Lincoln Terrace Park/Arthur S. Somers Park, Kings, New York, United States",
+      "latitude": 40.6669126,
+      "longitude": -73.9272044,
+      "observer": "Jim McNamee"
+    },
+    {
+      "species": "Golden-crowned Kinglet",
+      "scientific_name": "Regulus satrapa",
+      "count": "1",
+      "status": "CONFIRMED",
+      "date": "May 05, 2026 07:26",
+      "checklist_url": "https://ebird.org/checklist/S333049235",
+      "location": "Lincoln Terrace Park/Arthur S. Somers Park, Kings, New York, United States",
+      "latitude": 40.6669126,
+      "longitude": -73.9272044,
+      "observer": "Autumn  Von Plinsky"
     },
     {
       "species": "Golden-crowned Kinglet",
@@ -3778,18 +3766,6 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 05, 2026 07:26",
-      "checklist_url": "https://ebird.org/checklist/S333031890",
-      "location": "Lincoln Terrace Park/Arthur S. Somers Park, Kings, New York, United States",
-      "latitude": 40.6669126,
-      "longitude": -73.9272044,
-      "observer": "Sage Rockermann"
-    },
-    {
-      "species": "Golden-crowned Kinglet",
-      "scientific_name": "Regulus satrapa",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 05, 2026 07:26",
       "checklist_url": "https://ebird.org/checklist/S333031882",
       "location": "Lincoln Terrace Park/Arthur S. Somers Park, Kings, New York, United States",
       "latitude": 40.6669126,
@@ -3802,11 +3778,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 05, 2026 07:26",
-      "checklist_url": "https://ebird.org/checklist/S333031879",
+      "checklist_url": "https://ebird.org/checklist/S333031890",
       "location": "Lincoln Terrace Park/Arthur S. Somers Park, Kings, New York, United States",
       "latitude": 40.6669126,
       "longitude": -73.9272044,
-      "observer": "Jim McNamee"
+      "observer": "Sage Rockermann"
     },
     {
       "species": "Brown Creeper",
@@ -3836,7 +3812,7 @@
       "species": "Winter Wren",
       "scientific_name": "Troglodytes hiemalis",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 08:52",
       "checklist_url": "https://ebird.org/checklist/S334780487",
       "location": "Inwood Hill Park, New York, New York, United States",
@@ -3848,7 +3824,19 @@
       "species": "Winter Wren",
       "scientific_name": "Troglodytes hiemalis",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
+      "date": "May 08, 2026 08:48",
+      "checklist_url": "https://ebird.org/checklist/S334919789",
+      "location": "Inwood Hill Park, New York, New York, United States",
+      "latitude": 40.8717025,
+      "longitude": -73.9256904,
+      "observer": "Birding Spouses"
+    },
+    {
+      "species": "Winter Wren",
+      "scientific_name": "Troglodytes hiemalis",
+      "count": "1",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 06:20",
       "checklist_url": "https://ebird.org/checklist/S334608554",
       "location": "Inwood Hill Park, New York, New York, United States",
@@ -3869,16 +3857,16 @@
       "observer": "Kelsey Lagunas Sanchez"
     },
     {
-      "species": "Winter Wren",
-      "scientific_name": "Troglodytes hiemalis",
+      "species": "Sedge Wren",
+      "scientific_name": "Cistothorus stellaris",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 07, 2026 06:30",
-      "checklist_url": "https://ebird.org/checklist/S334055604",
-      "location": "Inwood Hill Park, New York, New York, United States",
-      "latitude": 40.8717025,
-      "longitude": -73.9256904,
-      "observer": "Hilary Russ"
+      "date": "May 08, 2026 19:35",
+      "checklist_url": "https://ebird.org/checklist/S334881937",
+      "location": "Braddock Bay--Dalheim unit, Monroe, New York, United States",
+      "latitude": 43.3079732,
+      "longitude": -77.7412319,
+      "observer": "Mitchell Barry"
     },
     {
       "species": "Sedge Wren",
@@ -3915,18 +3903,6 @@
       "latitude": 43.3079732,
       "longitude": -77.7412319,
       "observer": "Jeremy Pete"
-    },
-    {
-      "species": "Sedge Wren",
-      "scientific_name": "Cistothorus stellaris",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 07, 2026 11:29",
-      "checklist_url": "https://ebird.org/checklist/S334069283",
-      "location": "Hogan Pt Road field, Monroe, New York, United States",
-      "latitude": 43.3054894,
-      "longitude": -77.7368896,
-      "observer": "Dominic Sherony"
     },
     {
       "species": "Marsh Wren",
@@ -4150,11 +4126,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 02, 2026 07:25",
-      "checklist_url": "https://ebird.org/checklist/S331172857",
+      "checklist_url": "https://ebird.org/checklist/S331174560",
       "location": "Dirty Bird Ranch (Private), Chemung, New York, United States",
       "latitude": 42.2684747,
       "longitude": -76.5388437,
-      "observer": "Jon Corcoran"
+      "observer": "Melissa Mancuso"
     },
     {
       "species": "Evening Grosbeak (Eastern or type 3)",
@@ -4162,11 +4138,11 @@
       "count": "1",
       "status": "CONFIRMED",
       "date": "May 02, 2026 07:25",
-      "checklist_url": "https://ebird.org/checklist/S331174560",
+      "checklist_url": "https://ebird.org/checklist/S331172857",
       "location": "Dirty Bird Ranch (Private), Chemung, New York, United States",
       "latitude": 42.2684747,
       "longitude": -76.5388437,
-      "observer": "Melissa Mancuso"
+      "observer": "Jon Corcoran"
     },
     {
       "species": "Evening Grosbeak (Eastern or type 3)",
@@ -4232,7 +4208,7 @@
       "species": "Purple Finch",
       "scientific_name": "Haemorhous purpureus",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 07, 2026 09:43",
       "checklist_url": "https://ebird.org/checklist/S334137897",
       "location": "Central Park--The Ramble, New York, New York, United States",
@@ -4330,11 +4306,11 @@
       "count": "4",
       "status": "CONFIRMED",
       "date": "May 05, 2026 08:47",
-      "checklist_url": "https://ebird.org/checklist/S333053238",
+      "checklist_url": "https://ebird.org/checklist/S333067777",
       "location": "Morgan Hill SF--Shackham Rd., north (Onondaga Co.), Onondaga, New York, United States",
       "latitude": 42.7946008,
       "longitude": -76.009673,
-      "observer": "Graham Deese"
+      "observer": "Suzy Deese"
     },
     {
       "species": "Red Crossbill",
@@ -4342,11 +4318,11 @@
       "count": "4",
       "status": "CONFIRMED",
       "date": "May 05, 2026 08:47",
-      "checklist_url": "https://ebird.org/checklist/S333067777",
+      "checklist_url": "https://ebird.org/checklist/S333053238",
       "location": "Morgan Hill SF--Shackham Rd., north (Onondaga Co.), Onondaga, New York, United States",
       "latitude": 42.7946008,
       "longitude": -76.009673,
-      "observer": "Suzy Deese"
+      "observer": "Graham Deese"
     },
     {
       "species": "Red Crossbill",
@@ -4423,6 +4399,18 @@
     {
       "species": "Lapland Longspur",
       "scientific_name": "Calcarius lapponicus",
+      "count": "9",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 19:29",
+      "checklist_url": "https://ebird.org/checklist/S334888234",
+      "location": "Dale Rd wet fields, Niagara, New York, United States",
+      "latitude": 43.179807,
+      "longitude": -78.543886,
+      "observer": "Joel Strong"
+    },
+    {
+      "species": "Lapland Longspur",
+      "scientific_name": "Calcarius lapponicus",
       "count": "3",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 10:30",
@@ -4443,18 +4431,6 @@
       "latitude": 43.2961855,
       "longitude": -78.8798856,
       "observer": "Ann Branch"
-    },
-    {
-      "species": "Lapland Longspur",
-      "scientific_name": "Calcarius lapponicus",
-      "count": "12",
-      "status": "CONFIRMED",
-      "date": "May 06, 2026 09:20",
-      "checklist_url": "https://ebird.org/checklist/S333716857",
-      "location": "field on Hulbert Rd Wilson, Niagara, New York, United States",
-      "latitude": 43.2961855,
-      "longitude": -78.8798856,
-      "observer": "barbara woolson"
     },
     {
       "species": "Grasshopper Sparrow",
@@ -4661,6 +4637,18 @@
       "observer": "Kenneth Kemphues"
     },
     {
+      "species": "Fox Sparrow",
+      "scientific_name": "Passerella iliaca",
+      "count": "1",
+      "status": "CONFIRMED",
+      "date": "May 06, 2026 16:23",
+      "checklist_url": "https://ebird.org/checklist/S333694741",
+      "location": "Ontario Pathways--Wheat Rd., Phelps, Ontario, New York, United States",
+      "latitude": 42.939644,
+      "longitude": -77.0999613,
+      "observer": "Steven Benedict"
+    },
+    {
       "species": "Dark-eyed Junco",
       "scientific_name": "Junco hyemalis",
       "count": "2",
@@ -4760,7 +4748,7 @@
       "species": "Seaside Sparrow",
       "scientific_name": "Ammospiza maritima",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 16:55",
       "checklist_url": "https://ebird.org/checklist/S334794129",
       "location": "Governors Island (N.Y. County), New York, New York, United States",
@@ -4774,11 +4762,11 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 05, 2026 05:44",
-      "checklist_url": "https://ebird.org/checklist/S332991419",
+      "checklist_url": "https://ebird.org/checklist/S332991415",
       "location": "Franz Sigel Park, Bronx, New York, United States",
       "latitude": 40.8235524,
       "longitude": -73.9253916,
-      "observer": "ivelisse encarnacion"
+      "observer": "leo wexler-mann"
     },
     {
       "species": "Lincoln's Sparrow",
@@ -4786,11 +4774,11 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 05, 2026 05:44",
-      "checklist_url": "https://ebird.org/checklist/S332991415",
+      "checklist_url": "https://ebird.org/checklist/S332991419",
       "location": "Franz Sigel Park, Bronx, New York, United States",
       "latitude": 40.8235524,
       "longitude": -73.9253916,
-      "observer": "leo wexler-mann"
+      "observer": "ivelisse encarnacion"
     },
     {
       "species": "Lincoln's Sparrow",
@@ -4846,11 +4834,11 @@
       "count": "2",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 08:29",
-      "checklist_url": "https://ebird.org/checklist/S334512245",
+      "checklist_url": "https://ebird.org/checklist/S334512246",
       "location": "Montezuma NWR--Esker Brook Trails, Seneca, New York, United States",
       "latitude": 42.9745897,
       "longitude": -76.7834365,
-      "observer": "Brad Carlson"
+      "observer": "Kyle Gage"
     },
     {
       "species": "Yellow-breasted Chat",
@@ -4858,11 +4846,11 @@
       "count": "2",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 08:29",
-      "checklist_url": "https://ebird.org/checklist/S334512246",
+      "checklist_url": "https://ebird.org/checklist/S334512245",
       "location": "Montezuma NWR--Esker Brook Trails, Seneca, New York, United States",
       "latitude": 42.9745897,
       "longitude": -76.7834365,
-      "observer": "Kyle Gage"
+      "observer": "Brad Carlson"
     },
     {
       "species": "Yellow-breasted Chat",
@@ -4965,8 +4953,8 @@
       "scientific_name": "Quiscalus mexicanus",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 06, 2026 16:12",
-      "checklist_url": "https://ebird.org/checklist/S334317129",
+      "date": "May 08, 2026 15:54",
+      "checklist_url": "https://ebird.org/checklist/S334939037",
       "location": "Udall's Mill Pond, Nassau, New York, United States",
       "latitude": 40.7995738,
       "longitude": -73.7487479,
@@ -4979,6 +4967,18 @@
       "status": "UNCONFIRMED",
       "date": "May 06, 2026 16:12",
       "checklist_url": "https://ebird.org/checklist/S334316846",
+      "location": "Udall's Mill Pond, Nassau, New York, United States",
+      "latitude": 40.7995738,
+      "longitude": -73.7487479,
+      "observer": "Hiren Suratwala"
+    },
+    {
+      "species": "Great-tailed Grackle",
+      "scientific_name": "Quiscalus mexicanus",
+      "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 06, 2026 16:12",
+      "checklist_url": "https://ebird.org/checklist/S334317129",
       "location": "Udall's Mill Pond, Nassau, New York, United States",
       "latitude": 40.7995738,
       "longitude": -73.7487479,
@@ -5085,6 +5085,18 @@
       "scientific_name": "Vermivora chrysoptera",
       "count": "1",
       "status": "CONFIRMED",
+      "date": "May 07, 2026 07:38",
+      "checklist_url": "https://ebird.org/checklist/S334114610",
+      "location": "Upper Lisle County Park, Broome, New York, United States",
+      "latitude": 42.3970664,
+      "longitude": -75.9642321,
+      "observer": "David Nicosia"
+    },
+    {
+      "species": "Golden-winged Warbler",
+      "scientific_name": "Vermivora chrysoptera",
+      "count": "1",
+      "status": "CONFIRMED",
       "date": "May 07, 2026 10:40",
       "checklist_url": "https://ebird.org/checklist/S334070114",
       "location": "Upper Lisle County Park--Basset Rd., Broome, New York, United States",
@@ -5119,20 +5131,20 @@
     {
       "species": "Golden-winged x Blue-winged Warbler (hybrid)",
       "scientific_name": "Vermivora chrysoptera x cyanoptera",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 04, 2026 09:46",
-      "checklist_url": "https://ebird.org/checklist/S332765596",
-      "location": "Dodge Lane, Washington, New York, United States",
-      "latitude": 43.592694,
-      "longitude": -73.373361,
-      "observer": "Gary Chapin"
+      "count": "2",
+      "status": "UNCONFIRMED",
+      "date": "May 08, 2026 08:58",
+      "checklist_url": "https://ebird.org/checklist/S334926238",
+      "location": "Harriman SP--Lily Pond, Rockland, New York, United States",
+      "latitude": 41.2150753,
+      "longitude": -74.1133833,
+      "observer": "H B"
     },
     {
       "species": "Golden-winged x Blue-winged Warbler (hybrid)",
       "scientific_name": "Vermivora chrysoptera x cyanoptera",
       "count": "2",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 10:02",
       "checklist_url": "https://ebird.org/checklist/S334789607",
       "location": "Harriman SP--Lily Pond, Zone C, Rockland, New York, United States",
@@ -5144,7 +5156,7 @@
       "species": "Golden-winged x Blue-winged Warbler (hybrid)",
       "scientific_name": "Vermivora chrysoptera x cyanoptera",
       "count": "1",
-      "status": "UNCONFIRMED",
+      "status": "CONFIRMED",
       "date": "May 08, 2026 07:50",
       "checklist_url": "https://ebird.org/checklist/S334514313",
       "location": "Hutton Square Road - North, Washington, New York, United States",
@@ -5288,6 +5300,18 @@
       "species": "Prothonotary Warbler",
       "scientific_name": "Protonotaria citrea",
       "count": "1",
+      "status": "UNCONFIRMED",
+      "date": "May 05, 2026 21:50",
+      "checklist_url": "https://ebird.org/checklist/S334917857",
+      "location": "Sans Souci County Park, Suffolk, New York, United States",
+      "latitude": 40.7650059,
+      "longitude": -73.0602701,
+      "observer": "Brian Primeggia"
+    },
+    {
+      "species": "Prothonotary Warbler",
+      "scientific_name": "Protonotaria citrea",
+      "count": "1",
       "status": "CONFIRMED",
       "date": "May 02, 2026 14:57",
       "checklist_url": "https://ebird.org/checklist/S331326111",
@@ -5295,18 +5319,6 @@
       "latitude": 40.9527912,
       "longitude": -73.7738478,
       "observer": "Linnet Tse"
-    },
-    {
-      "species": "Prothonotary Warbler",
-      "scientific_name": "Protonotaria citrea",
-      "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 02, 2026 14:56",
-      "checklist_url": "https://ebird.org/checklist/S331294250",
-      "location": "Sheldrake Lake (Larchmont Reservoir), Westchester, New York, United States",
-      "latitude": 40.9527912,
-      "longitude": -73.7738478,
-      "observer": "E Pies"
     },
     {
       "species": "Tennessee Warbler",
@@ -5456,18 +5468,6 @@
       "species": "Kentucky Warbler",
       "scientific_name": "Geothlypis formosa",
       "count": "1",
-      "status": "CONFIRMED",
-      "date": "May 05, 2026 18:21",
-      "checklist_url": "https://ebird.org/checklist/S333272612",
-      "location": "Central Park--The Ramble, New York, New York, United States",
-      "latitude": 40.7779667,
-      "longitude": -73.9697165,
-      "observer": "Sherif Elmaghrabi"
-    },
-    {
-      "species": "Kentucky Warbler",
-      "scientific_name": "Geothlypis formosa",
-      "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 07:00",
       "checklist_url": "https://ebird.org/checklist/S334644923",
@@ -5565,24 +5565,24 @@
       "scientific_name": "Setophaga cerulea",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 08, 2026 17:32",
-      "checklist_url": "https://ebird.org/checklist/S334848167",
+      "date": "May 08, 2026 17:54",
+      "checklist_url": "https://ebird.org/checklist/S334924795",
       "location": "Green-Wood Cemetery, Brooklyn, Kings, New York, United States",
       "latitude": 40.6523083,
       "longitude": -73.9904281,
-      "observer": "Radka Osickova"
+      "observer": "Gabrielle MG"
     },
     {
       "species": "Cerulean Warbler",
       "scientific_name": "Setophaga cerulea",
       "count": "1",
       "status": "UNCONFIRMED",
-      "date": "May 08, 2026 12:01",
-      "checklist_url": "https://ebird.org/checklist/S334697101",
+      "date": "May 08, 2026 17:32",
+      "checklist_url": "https://ebird.org/checklist/S334848167",
       "location": "Green-Wood Cemetery, Brooklyn, Kings, New York, United States",
       "latitude": 40.6523083,
       "longitude": -73.9904281,
-      "observer": "Christine Cieslak"
+      "observer": "Radka Osickova"
     },
     {
       "species": "Blackpoll Warbler",
@@ -5698,11 +5698,11 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 11:30",
-      "checklist_url": "https://ebird.org/checklist/S334798215",
+      "checklist_url": "https://ebird.org/checklist/S334628331",
       "location": "Calvert Vaux Park (Dreier-Offerman Park), Kings, New York, United States",
       "latitude": 40.5848762,
       "longitude": -73.9945752,
-      "observer": "E R"
+      "observer": "Casey Ferio"
     },
     {
       "species": "Yellow-throated Warbler",
@@ -5710,11 +5710,11 @@
       "count": "1",
       "status": "UNCONFIRMED",
       "date": "May 08, 2026 11:30",
-      "checklist_url": "https://ebird.org/checklist/S334628331",
+      "checklist_url": "https://ebird.org/checklist/S334798215",
       "location": "Calvert Vaux Park (Dreier-Offerman Park), Kings, New York, United States",
       "latitude": 40.5848762,
       "longitude": -73.9945752,
-      "observer": "Casey Ferio"
+      "observer": "E R"
     },
     {
       "species": "Yellow-throated Warbler (albilora)",
